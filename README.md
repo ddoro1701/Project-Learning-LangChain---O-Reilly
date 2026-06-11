@@ -1,4 +1,4 @@
-# 🦜🔗 Learning LangChain — Mein Lernprojekt
+# 🦜🔗 Learning LangChain
 
 > Persönliches Repository zum Buch **"Learning LangChain"** von Mayo Oshin & Nuno Campos (O'Reilly, Februar 2025)
 
@@ -15,76 +15,6 @@
 | **Seiten** | 296 |
 | **Niveau** | Anfänger bis Fortgeschrittene |
 | **Sprache** | Python & JavaScript |
-
----
-
-## 🗂️ Repository Struktur
-
-```
-learning-langchain/
-│
-├── README.md
-├── .env                    # API Keys (nicht in GitHub!)
-├── .gitignore
-├── requirements.txt
-│
-├── chapter1/               # LLM Fundamentals
-│   ├── 01_llm_basics.ipynb
-│   ├── 02_prompt_templates.ipynb
-│   ├── 03_output_parsers.ipynb
-│   └── 04_lcel_chains.ipynb
-│
-├── chapter2/               # RAG Part I: Indexing
-│   ├── 01_embeddings.ipynb
-│   ├── 02_document_loaders.ipynb
-│   ├── 03_text_splitters.ipynb
-│   └── 04_vector_stores.ipynb
-│
-├── chapter3/               # RAG Part II: Chatting
-│   ├── 01_retrieval.ipynb
-│   ├── 02_query_transformation.ipynb
-│   ├── 03_rag_fusion.ipynb
-│   └── 04_query_routing.ipynb
-│
-├── chapter4/               # Memory mit LangGraph
-│   ├── 01_stategraph.ipynb
-│   ├── 02_memory.ipynb
-│   └── 03_chat_history.ipynb
-│
-├── chapter5/               # Cognitive Architectures
-│   ├── 01_llm_call.ipynb
-│   ├── 02_chain.ipynb
-│   └── 03_router.ipynb
-│
-├── chapter6/               # Agent Architecture
-│   ├── 01_plan_do_loop.ipynb
-│   ├── 02_langgraph_agent.ipynb
-│   └── 03_tools.ipynb
-│
-├── chapter7/               # Agents II
-│   ├── 01_reflection.ipynb
-│   ├── 02_subgraphs.ipynb
-│   └── 03_multi_agent.ipynb
-│
-├── chapter8/               # LLM Patterns
-│   ├── 01_structured_output.ipynb
-│   ├── 02_streaming.ipynb
-│   └── 03_human_in_loop.ipynb
-│
-├── chapter9/               # Deployment
-│   ├── 01_backend_api.ipynb
-│   ├── 02_langgraph_platform.ipynb
-│   └── 03_security.ipynb
-│
-├── chapter10/              # Testing & Evaluation
-│   ├── 01_self_corrective_rag.ipynb
-│   ├── 02_evaluation.ipynb
-│   └── 03_monitoring.ipynb
-│
-└── projects/               # Eigene Projekte
-    ├── rag_chatbot/
-    └── langchain_agent/
-```
 
 ---
 
@@ -337,7 +267,7 @@ python-dotenv
 
 ## 📝 Meine Notizen
 
-### Was ich gelernt habe
+### Learnings
 - [ ] Kapitel 1 — LLM Fundamentals
 - [ ] Kapitel 2 — RAG Indexing
 - [ ] Kapitel 3 — RAG Chatting
@@ -352,13 +282,7 @@ python-dotenv
 
 ---
 
-## 🚀 Eigene Projekte
 
-| Projekt | Beschreibung | Status |
-|---------|-------------|--------|
-| RAG Chatbot | Chat mit eigenen Dokumenten | 🔜 Geplant |
-| LangChain Agent | Autonomer Agent mit Tools | 🔜 Geplant |
-| DSGVO-konformes RAG | RAG mit lokalen LLMs (Ollama) | 🔜 Geplant |
 
 ---
 
@@ -371,16 +295,6 @@ python-dotenv
 - [GitHub Repo zum Buch](https://github.com/langchain-ai/learning-langchain)
 - [Ollama — Lokale LLMs](https://ollama.ai)
 
----
-
-## ⚠️ .gitignore
-
-```
-venv/
-.env
-__pycache__/
-.ipynb_checkpoints/
-*.pyc
 ```
 
 ---
